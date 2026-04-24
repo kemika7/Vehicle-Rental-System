@@ -1,0 +1,38 @@
+# Version control
+.git
+.gitignore
+
+# Python artefacts
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+dist/
+build/
+
+# Virtual environments
+.venv
+venv
+env
+
+# Test suite — never in the production image
+tests/
+pytest.ini
+requirements-dev.txt
+.coverage
+htmlcov/
+
+# Dev tooling
+agent/
+*.md
+
+# Local SQLite database
+*.db
+
+# Docker build files
+Dockerfile
+docker-compose.yml
+.dockerignore
+nginx/
